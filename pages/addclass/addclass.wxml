@@ -1,0 +1,20 @@
+<view >
+  <view class="input-box">
+    <text>课程名</text>
+    <input type="text" model:value="{{ name }}" placeholder="输入课程名"/>
+  </view>
+  <view class="input-box">
+    <text>教室名</text>
+    <input type="text"model:value="{{ classroom }}" placeholder="输入教室名"/>
+  </view>
+  <view class="input-box">
+    <text>开始时间</text>
+    <input type="number" model:value="{{ startTime }}" placeholder="早上1，2下午3，4"/>
+  </view>
+  <view class="input-box">
+    <text>周次</text>
+    <input type="number" model:value="{{ week }}" placeholder="周次"/>
+  </view>
+
+  <button type="primary" style="width: 80%; margin-top: 50rpx;" bindtap="buttonbind">提交</button>
+</view>

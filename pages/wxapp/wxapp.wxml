@@ -1,0 +1,38 @@
+<view class="weekName">
+  <view>周一</view>
+  <view>周二</view>
+  <view>周三</view>
+  <view>周四</view>
+  <view>周五</view>
+  <view>周六</view>
+  <view>周日</view>
+</view>
+<view class="container">
+  <view class="time">
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+    <view>4</view>
+    <view>5</view>
+    <view>6</view>
+    <view>7</view>
+    <view>8</view>
+    <view>9</view>
+    <view>10</view>
+    <view>11</view>
+  </view>
+  <view class="timetable">
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view class="timetable-item"></view>
+    <view wx:for="{{ classlist }}" wx:key="{{ index }}" class="classcard" style="top: {{(item.startTime - 1 )* 200 + (item.startTime - 1) * 3 }}rpx; left: {{(item.week - 1) * 103}}rpx; background-color: {{item.color}}; height: {{}};">{{item.name +"@"+item.classroom}}</view>
+  </view>
+</view>

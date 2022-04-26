@@ -1,0 +1,51 @@
+.weekName {
+  margin-left: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.weekName > view {
+  margin: 0 20rpx;
+  font-size: 13px;
+  color: #999;
+}
+.container {
+  height: 1100rpx;
+  display: flex;
+}
+.time{
+  width: 30rpx;
+  height: 100%;
+}
+.time > view {
+  line-height: 100rpx;
+  text-align: center;
+}
+.timetable {
+  height: 1100rpx;
+  width: 720rpx;
+  position: relative;
+}
+.timetable-item {
+  height: 100rpx;
+  width: 100%;
+  border-bottom: 1px solid #aaa;
+}
+.timetable-item:nth-child(4) {
+  border-bottom: 1px solid red;
+}
+.timetable-item:nth-child(8) {
+  border-bottom: 1px solid red;
+}
+.classcard {
+  height: 200rpx;
+  width: 103rpx;
+  background-color: red;
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 30rpx;
+  word-wrap: break-word;
+  padding: 4rpx;
+}

@@ -1,0 +1,13 @@
+.input-box {
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1px solid #f4f4f4;
+}
+.input-box > text {
+  width: 170rpx;
+}
+.input-box > input {
+  height: 80rpx;
+  margin-left: 20rpx;
+}
