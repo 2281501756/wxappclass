@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/admin/admin",
-          "pathName": "pages/admin/admin",
+          "name": "pages/timer/timer",
+          "pathName": "pages/timer/timer",
           "query": "",
           "scene": null
         }

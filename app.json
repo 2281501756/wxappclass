@@ -2,7 +2,8 @@
   "pages":[
     "pages/wxapp/wxapp",
     "pages/admin/admin",
-    "pages/addclass/addclass"
+    "pages/addclass/addclass",
+    "pages/timer/timer"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -7,6 +7,11 @@ Page({
   data: {
     userInfo: {},
   },
+  addTimer() {
+    wx.navigateTo({
+      url: '/pages/timer/timer',
+    })
+  },
   addclass() {
     wx.navigateTo({
       url: "/pages/addclass/addclass"
