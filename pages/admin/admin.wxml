@@ -3,8 +3,9 @@
     <image bindtap="bindViewTap" class="userinfo-avatar" bindtap="getUserProfile" src="{{userInfo.avatarUrl}}" mode="cover"></image>
   </view>
     <text style="margin-bottom: 20rpx;">{{ userInfo.nickName }}</text>
-    <button class="button" type="primary" bindtap="addTimer">学习计时器</button>
+    <button class="button" type="primary" style="background-color: lightcoral;" bindtap="addTimer">学习计时器</button>
+    <button class="button" type="primary" style="background-color: rgb(45, 201, 253);" bindtap="showclasswork">作业查看</button>
+    <button class="button" type="primary" style="background-color: rgb(45, 201, 253);" bindtap="addclasswork">添加作业</button>
     <button class="button" type="primary" bindtap="addclass">添加课程</button>
     <button class="button" type="warn" bindtap="deleteclass">删除课程</button>
 </view>
- 

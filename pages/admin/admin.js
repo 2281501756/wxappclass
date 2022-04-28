@@ -7,6 +7,16 @@ Page({
   data: {
     userInfo: {},
   },
+  showclasswork() {
+    wx.navigateTo({
+      url: '/pages/classwork/classwork',
+    })
+  },
+  addclasswork() {
+    wx.navigateTo({
+      url: '/pages/addclasswork/addclasswork',
+    })
+  },
   addTimer() {
     wx.navigateTo({
       url: '/pages/timer/timer',

@@ -13,7 +13,7 @@ Page({
     studyMinute: -1,
     studySecond: -1
   },
-  timerStop() {
+  timerStop() { 
     clearInterval(this.data.intervalID)
     wx.clearStorageSync("timeDate")
     this.setData({

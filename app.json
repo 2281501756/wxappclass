@@ -1,15 +1,17 @@
 {
-  "pages":[
+  "pages": [
     "pages/wxapp/wxapp",
     "pages/admin/admin",
     "pages/addclass/addclass",
-    "pages/timer/timer"
+    "pages/timer/timer",
+    "pages/classwork/classwork",
+    "pages/addclasswork/addclasswork"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "课表小程序",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#000",

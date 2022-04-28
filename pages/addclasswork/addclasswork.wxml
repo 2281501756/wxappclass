@@ -1,0 +1,11 @@
+<view>
+  <view>
+    <view>标题</view>
+    <input model:value="{{title}}" style="height: 30px; line-height: 30px; font-size: 20px; background-color: #f1f1f1; padding-left: 10px;" type="text" />
+  </view>
+  <view>
+    <view>内容</view>
+    <input model:value="{{content}}" style="height: 30px; line-height: 30px; font-size: 20px; background-color: #f1f1f1; padding-left: 10px;" type="text" />
+  </view>
+  <button bindtap="handleClickButton" type="primary" style="margin-top: 20px;">提交</button>
+</view>

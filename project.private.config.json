@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/timer/timer",
-          "pathName": "pages/timer/timer",
+          "name": "pages/wxapp/wxapp",
+          "pathName": "pages/wxapp/wxapp",
           "query": "",
           "scene": null
         }

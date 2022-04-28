@@ -1,0 +1,3 @@
+<view>
+  <Item wx:for="{{classworklist}}" title="{{item.title}}" content="{{item.content}}" pid="{{item.id}}" bind:itemclick="deleteCard"></Item>
+</view>
