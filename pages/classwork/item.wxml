@@ -2,4 +2,5 @@
   <view style="font-size: 20px; margin-bottom: 5px;">{{title}}</view>
   <view style="margin: 10px;">{{content}}</view>
   <button style="background-color: rgb(204, 16, 16); color: white;" bindtap="handleClick">删除</button>
+  <view></view>
 </view>
